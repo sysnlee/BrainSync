@@ -13,16 +13,10 @@ namespace BrainSyncSite.Controllers
             return View();
         }
 
-        public ActionResult About()
+        public ActionResult News()
         {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
+            //ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "关于我们";
 
             return View();
         }
