@@ -1,17 +1,54 @@
-﻿@{
-    ViewBag.Title = "技術支持";
-}
+﻿<!DOCTYPE HTML>
 <h2>@ViewBag.Head</h2>
 <h3>@ViewBag.Message</h3>
 
-<address>
-    科学大道，高新区<br />
-    河南省郑州市<br />
-    <abbr title="Phone">P:</abbr>
-    888 888 66
-</address>
+<html>
+@{
+    ViewBag.Title = "技術支持";
+}
+<head>
+    <script>
+        var toggleHidden = function () {
+            var elem = document.getElementById("toggle");
+            if (elem.hasAttribute("hidden")) {
+                elem.removeAttribute("hidden");
+            } else {
+                elem.setAttribute("hidden", "hidden");
+            }
+        }
+    </script>
+</head>
+<body>
+    <button onclick="toggleHidden()" title="切换客服">Toggle</button>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>City</th>
+        </tr>
+        <tr>
+            <td>Adam Freeman  </td>
+            <td>London</td>
+        </tr>
+        <tr id="toggle" >
+            <td>Joe Smith</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Anne Jone</td>
+            <td>Paris</td>
+        </tr>
+    </table>
+    <br />
+    <address>
+        科学大道，高新区<br />
+        河南省郑州市<br />
+        <abbr title="Phone">P:</abbr>
+        888 888 66
+    </address>
 
-<address>
-    <strong>支持:</strong> <a href="mailto:techcenter@sina.cn">techcenter@sina.cn</a><br />
-    <strong>商务:</strong> <a href="mailto:sysnlee@hotmail.com">sysnlee@hotmail.com</a>
-</address>
+    <address>
+        <strong>支持:</strong> <a href="mailto:techcenter@sina.cn">techcenter@sina.cn</a><br />
+        <strong>商务:</strong> <a href="mailto:sysnlee@hotmail.com">sysnlee@hotmail.com</a>
+    </address>
+</body>
+</html>
