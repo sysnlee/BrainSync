@@ -10,9 +10,9 @@
 <p contenteditable="true" contextmenu="abc,edf">記錄好每天的收穫。</p>
 <div>这段文字编辑于笔记本，我要提交到Git；以方便到家后，接着继续编辑。</div>
 
-<h3>处理器架构</h3>
+<h3 onclick="toggleHidden()">处理器架构</h3>
 <h4>2018-08-31</h4>
-<div>
+<div id="toggle">
     RISC 和CISC 是目前设计制造微处理器的两种典型技术，虽然它们都是试图在体系结构、操作运行、软件硬件、编译时间和运行时间等诸多因素中做出某种平衡，以求达到高效
 的目的，但采用的方法不同，因此，在很多方面差异很大，它们主要有：
 （1） 指令系统：RISC 设计者把主要精力放在那些经常使用的指令上，尽量使它们具有简单高效的特色。对不常用的功能，常通过组合指令来完成。因此，在RISC 机器上实现特殊功能时，效率可能较低。但可以利用流水技术和超标量技术加以改进和弥补。而CISC 计算机的指令系统比较丰富，有专用指令来完成特定的功能。因此，处理特殊任务效率较高。
@@ -47,6 +47,16 @@
 <div id="main" style="width: 600px;height:400px;"></div>
 
 <script type="text/javascript">
+     //折叠文章片段
+     var toggleHidden = function () {
+            var elem = document.getElementById("toggle");
+            if (elem.hasAttribute("hidden")) {
+                elem.removeAttribute("hidden");
+            } else {
+                elem.setAttribute("hidden", "hidden");
+            }
+        }
+
     // 基于准备好的dom，初始化echarts实例
     var myChart = echarts.init(document.getElementById('main'));
 
