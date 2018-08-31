@@ -2,8 +2,6 @@
     ViewBag.Title = "日誌";
 }
 
-<script src="/Scripts/echarts.js"></script>
-
 <h2>@ViewBag.Message</h2>
 
 <p style="">@DateTime.Now</p>
@@ -11,22 +9,39 @@
 <div>这段文字编辑于笔记本，我要提交到Git；以方便到家后，接着继续编辑。</div>
 
 <h3 onclick="toggleHidden()">处理器架构</h3>
-<h4>2018-08-31</h4>
+<p>2018-08-31</p>
 <div id="toggle">
     RISC 和CISC 是目前设计制造微处理器的两种典型技术，虽然它们都是试图在体系结构、操作运行、软件硬件、编译时间和运行时间等诸多因素中做出某种平衡，以求达到高效
 的目的，但采用的方法不同，因此，在很多方面差异很大，它们主要有：
-（1） 指令系统：RISC 设计者把主要精力放在那些经常使用的指令上，尽量使它们具有简单高效的特色。对不常用的功能，常通过组合指令来完成。因此，在RISC 机器上实现特殊功能时，效率可能较低。但可以利用流水技术和超标量技术加以改进和弥补。而CISC 计算机的指令系统比较丰富，有专用指令来完成特定的功能。因此，处理特殊任务效率较高。
-（2） 存储器操作：RISC 对存储器操作有限制，使控制简单化；而CISC 机器的存储器操作指令多，操作直接。
-（3） 程序：RISC 汇编语言程序一般需要较大的内存空间，实现特殊功能时程序复杂，不易设计；而CISC 汇编语言程序编程相对简单，科学计算及复杂操作的程序社设计相对容易，效率较高。
-（4） 中断：RISC 机器在一条指令执行的适当地方可以响应中断；而CISC 机器是在一条指令执行结束后响应中断。
-（5） CPU：RISC CPU 包含有较少的单元电路，因而面积小、功耗低；而CISC CPU 包含有丰富的电路单元，因而功能强、面积大、功耗大。
-（6） 设计周期：RISC 微处理器结构简单，布局紧凑，设计周期短，且易于采用最新技术；CISC 微处理器结构复杂，设计周期长。
-（7） 用户使用：RISC 微处理器结构简单，指令规整，性能容易把握，易学易用；CISC微处理器结构复杂，功能强大，实现特殊功能容易。
-（8） 应用范围：由于RISC 指令系统的确定与特定的应用领域有关，故RISC 机器更适合于专用机；而CISC 机器则更适合于通用机。
+    <ol>
+        <li>
+            指令系统：RISC 设计者把主要精力放在那些经常使用的指令上，尽量使它们具有简单高效的特色。对不常用的功能，常通过组合指令来完成。因此，在RISC 机器上实现特殊功能时，效率可能较低。但可以利用流水技术和超标量技术加以改进和弥补。而CISC 计算机的指令系统比较丰富，有专用指令来完成特定的功能。因此，处理特殊任务效率较高。
+        </li>
+        <li>
+            存储器操作：RISC 对存储器操作有限制，使控制简单化；而CISC 机器的存储器操作指令多，操作直接。
+        </li>
+        <li>
+            程序：RISC 汇编语言程序一般需要较大的内存空间，实现特殊功能时程序复杂，不易设计；而CISC 汇编语言程序编程相对简单，科学计算及复杂操作的程序社设计相对容易，效率较高。
+        </li>
+        <li>
+            中断：RISC 机器在一条指令执行的适当地方可以响应中断；而CISC 机器是在一条指令执行结束后响应中断。
+        </li>
+        <li>
+            CPU：RISC CPU 包含有较少的单元电路，因而面积小、功耗低；而CISC CPU 包含有丰富的电路单元，因而功能强、面积大、功耗大。
+        </li>
+        <li>
+            设计周期：RISC 微处理器结构简单，布局紧凑，设计周期短，且易于采用最新技术；CISC 微处理器结构复杂，设计周期长。
+        </li>
+        <li>
+            用户使用：RISC 微处理器结构简单，指令规整，性能容易把握，易学易用；CISC微处理器结构复杂，功能强大，实现特殊功能容易。
+        </li>
+        <li>
+            应用范围：由于RISC 指令系统的确定与特定的应用领域有关，故RISC 机器更适合于专用机；而CISC 机器则更适合于通用机。
+        </li>
+    </ol>
 </div>
 
-
-<table border="1">
+<table>
     <tr>
         <td>age</td>
         <td>name</td>
@@ -43,64 +58,14 @@
         <td>Women</td>
     </tr>
 </table>
-
-<div id="main" style="width: 600px;height:400px;"></div>
-
 <script type="text/javascript">
-     //折叠文章片段
-     var toggleHidden = function () {
-            var elem = document.getElementById("toggle");
-            if (elem.hasAttribute("hidden")) {
-                elem.removeAttribute("hidden");
-            } else {
-                elem.setAttribute("hidden", "hidden");
-            }
+    //折叠文章片段
+    var toggleHidden = function () {
+        var elem = document.getElementById("toggle");
+        if (elem.hasAttribute("hidden")) {
+            elem.removeAttribute("hidden");
+        } else {
+            elem.setAttribute("hidden", "hidden");
         }
-
-    // 基于准备好的dom，初始化echarts实例
-    var myChart = echarts.init(document.getElementById('main'));
-
-    var data = [];
-
-    for (var i = 0; i <= 360; i++) {
-        var t = i / 180 * Math.PI;
-        var r = Math.sin(2 * t) * Math.cos(2 * t);
-        data.push([r, i]);
     }
-
-    option = {
-        title: {
-            text: '极坐标双数值轴'
-        },
-        legend: {
-            data: ['line']
-        },
-        polar: {
-            center: ['50%', '54%']
-        },
-        tooltip: {
-            trigger: 'axis',
-            axisPointer: {
-                type: 'cross'
-            }
-        },
-        angleAxis: {
-            type: 'value',
-            startAngle: 0
-        },
-        radiusAxis: {
-            min: 0
-        },
-        series: [{
-            coordinateSystem: 'polar',
-            name: 'line',
-            type: 'line',
-            showSymbol: false,
-            data: data
-        }],
-        animationDuration: 2000
-    };
-
-    // 使用刚指定的配置项和数据显示图表。
-    myChart.setOption(option);
 </script>
