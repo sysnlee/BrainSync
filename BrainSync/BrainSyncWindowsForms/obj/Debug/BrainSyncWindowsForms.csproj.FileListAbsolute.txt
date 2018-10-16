@@ -1,0 +1,10 @@
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\bin\Debug\BrainSyncWindowsForms.exe.config
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\bin\Debug\BrainSyncWindowsForms.exe
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\bin\Debug\BrainSyncWindowsForms.pdb
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\obj\Debug\BrainSyncWindowsForms.csprojAssemblyReference.cache
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\obj\Debug\BrainSyncWindowsForms.Form1.resources
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\obj\Debug\BrainSyncWindowsForms.Properties.Resources.resources
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\obj\Debug\BrainSyncWindowsForms.csproj.GenerateResource.cache
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\obj\Debug\BrainSyncWindowsForms.csproj.CoreCompileInputs.cache
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\obj\Debug\BrainSyncWindowsForms.exe
+E:\BrainSync\BrainSync\BrainSyncWindowsForms\obj\Debug\BrainSyncWindowsForms.pdb
