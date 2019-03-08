@@ -2,7 +2,6 @@ E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\Brain
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\BrainSyncAndroid.pdb
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\BrainSyncAndroid.BrainSyncAndroid.apk
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\BrainSyncAndroid.BrainSyncAndroid-Signed.apk
-E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\BrainSyncAndroid.csprojResolveAssemblyReference.cache
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\BrainSyncAndroid.csproj.CoreCompileInputs.cache
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\BrainSyncAndroid.dll
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\BrainSyncAndroid.pdb
@@ -16,7 +15,6 @@ E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\res\m
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\res\mipmap-xxxhdpi\icon.png
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\R.cs.flag
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\uploadflags.txt
-E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\BrainSyncAndroid.dll
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\Mono.Android.pdb
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\mscorlib.pdb
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\System.Core.pdb
@@ -37,4 +35,18 @@ E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\links
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\linksrc\System.ServiceModel.Internals.pdb
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\linksrc\Mono.Security.pdb
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\linksrc\System.ComponentModel.Composition.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\linksrc\BrainSyncAndroid.dll.mdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\BrainSyncAndroid.dll.mdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\BrainSyncAndroid.dll.mdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\Mono.Android.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\Mono.Security.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\mscorlib.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\System.ComponentModel.Composition.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\System.Core.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\System.Net.Http.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\System.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\System.Runtime.Serialization.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\System.ServiceModel.Internals.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\android\assets\System.Xml.pdb
+E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\bin\Debug\BrainSyncAndroid.dll
 E:\BrainSync\BrainSync\BrainSync\Mobile\Android\BrainSyncAndroid\obj\Debug\linksrc\BrainSyncAndroid.dll.mdb
