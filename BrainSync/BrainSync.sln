@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainSyncWindowsForms", "Br
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainSyncConsole", "BrainSyncConsole\BrainSyncConsole.csproj", "{4507ACB3-FECC-4841-A170-F9B6A8835B9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BrainSyncAndroidWeb", "Mobile\AndroidWebview\BrainSyncAndroidWeb\BrainSyncAndroidWeb.csproj", "{DC281049-BE4D-46A2-BDC1-EA202B3CF3BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,12 @@ Global
 		{4507ACB3-FECC-4841-A170-F9B6A8835B9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4507ACB3-FECC-4841-A170-F9B6A8835B9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4507ACB3-FECC-4841-A170-F9B6A8835B9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC281049-BE4D-46A2-BDC1-EA202B3CF3BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC281049-BE4D-46A2-BDC1-EA202B3CF3BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC281049-BE4D-46A2-BDC1-EA202B3CF3BC}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC281049-BE4D-46A2-BDC1-EA202B3CF3BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC281049-BE4D-46A2-BDC1-EA202B3CF3BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC281049-BE4D-46A2-BDC1-EA202B3CF3BC}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

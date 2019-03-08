@@ -1,0 +1,4 @@
+BrainSyncAndroid.MainActivity, BrainSyncAndroid;md52e2798f43710821e8db4bd0585be549b.MainActivity
+BrainSyncAndroid.MainActivity, BrainSyncAndroid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md52e2798f43710821e8db4bd0585be549b.MainActivity
+BrainSyncAndroid.MainActivity;md52e2798f43710821e8db4bd0585be549b.MainActivity
+brainsyncandroid.MainActivity;md52e2798f43710821e8db4bd0585be549b.MainActivity
